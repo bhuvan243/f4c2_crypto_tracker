@@ -1,0 +1,32 @@
+.table {
+  background-color: #10101c;
+  color: red;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+thead > tr > th {
+  padding: 10px 0;
+}
+.row td {
+  padding: 10px 0;
+}
+thead > tr > th:nth-child(2) {
+  text-align: left;
+}
+tbody > tr:hover {
+  background-color: rgb(62, 62, 159);
+  cursor: pointer;
+}
+.row td:first-child {
+  padding: 0 5px;
+}
+.row td:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+.row td img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
